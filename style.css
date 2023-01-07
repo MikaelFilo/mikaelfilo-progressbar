@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	background-color: rgb(200, 200, 243);
+	height: 50vh;
+	width: 50vw;
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#number, #color, #time {
+	width: 300px;
+	height: 12px;
+	padding: 10px;
+	margin: 10px;
+	font-size: 15px;
+}
+
+.outer {
+	background-color: white;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2),
+		-5px -5px 5px rgba(0, 0, 0, 0.2);
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.inner {
+	background-color: rgb(215, 215, 243);
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.value1{
+	position: absolute;
+	top: 46%;
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+}
+
+a.submit {
+	text-decoration: none;
+	padding: 10px;
+	background-color: teal;
+	color: white;
+	border-radius: 4px;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 20px;
+  height: 50px;
+  background-color: teal;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+    color: white;
+}
